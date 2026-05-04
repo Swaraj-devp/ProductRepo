@@ -1,8 +1,8 @@
-package com.example.demo.Controller;
+package com.example.product.Controller;
 
-import com.example.demo.Service.ProductService;
-import com.example.demo.dto.ProductRequestDTO;
-import com.example.demo.dto.ProductResponseDTO;
+import com.example.product.Service.ProductService;
+import com.example.product.dto.ProductRequestDTO;
+import com.example.product.dto.ProductResponseDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;

@@ -1,8 +1,7 @@
-package com.example.demo.Service;
+package com.example.product.Service;
 
-import com.example.demo.dto.ProductRequestDTO;
-import com.example.demo.dto.ProductResponseDTO;
-import com.example.demo.entity.Product;
+import com.example.product.dto.ProductRequestDTO;
+import com.example.product.dto.ProductResponseDTO;
 import org.springframework.data.domain.Page;
 
 import java.util.List;
