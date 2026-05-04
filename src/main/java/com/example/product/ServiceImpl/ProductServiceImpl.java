@@ -1,18 +1,17 @@
-package com.example.demo.ServiceImpl;
+package com.example.product.ServiceImpl;
 
-import com.example.demo.Repository.ProductRepository;
-import com.example.demo.Service.ProductService;
-import com.example.demo.dto.ProductRequestDTO;
-import com.example.demo.dto.ProductResponseDTO;
-import com.example.demo.entity.Product;
-import com.example.demo.mapper.ProductMapper;
+import com.example.product.Repository.ProductRepository;
+import com.example.product.Service.ProductService;
+import com.example.product.dto.ProductRequestDTO;
+import com.example.product.dto.ProductResponseDTO;
+import com.example.product.entity.Product;
+import com.example.product.mapper.ProductMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
